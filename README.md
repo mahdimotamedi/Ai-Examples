@@ -25,6 +25,13 @@ All examples are implemented in **Python 3.11** and demonstrate how to build and
 - Includes **data normalization, model architecture, training, and custom image prediction**.
 - Supports **saving and loading models** to avoid retraining every time.
 
+### 3️⃣ **Transformer Model for Sentiment Analysis with TensorFlow**
+- Implements a **Transformer-based neural network** using `tensorflow.keras`.
+- Trains on the **IMDB Movie Reviews Dataset** for binary sentiment classification (**positive** or **negative**).
+- Includes:
+  - **Data downloading** and **preprocessing**.
+  - Custom **Transformer architecture** with positional embeddings and multi-head attention.
+  - Functions for **model training**, **prediction**, and **evaluation**.
 ---
 
 ## ⚙️ Installation & Setup
@@ -62,7 +69,6 @@ If the model is already trained, it will be **loaded automatically** instead of 
 ## 🎯 Future Improvements
 - Adding **Object Detection models**.
 - Implementing **Reinforcement Learning** algorithms.
-- Experimenting with **Transformer models**.
 
 ---
 
